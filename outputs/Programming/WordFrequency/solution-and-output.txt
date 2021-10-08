@@ -1,0 +1,5 @@
+sean$ tr ' ' '\n' < words.txt | sort | uniq -c | sort -nr
+   4 the
+   3 is
+   2 sunny
+   1 day

@@ -1,0 +1,6 @@
+
+#Working on OSX which doesn't support Perl regex, hence the "ggrep"
+
+sean$ ggrep -P '^(\d{3}-|\(\d{3}\) )\d{3}-\d{4}$' numbers.txt 
+987-123-4567
+(123) 456-7890
